@@ -1,7 +1,4 @@
-# cs2-dumper
 
-An external offset/interface dumper for Counter-Strike 2, with support for both Windows & Linux. Powered
-by [memflow](https://github.com/memflow/memflow).
 
 The native Linux version is available in the [linux](https://github.com/a2x/cs2-dumper/tree/linux) branch (currently
 outdated).
@@ -17,7 +14,7 @@ Note that compiling it yourself requires your Rust compiler version to be at lea
 ## Usage
 
 1. Ensure the game is running (Being in the main menu should suffice).
-2. Run the `cs2-dumper` executable.
+2. Run the executable.
 
 _Note:_ If you run the executable without specifying an optional memflow connector name, it will automatically use the
 [memflow-native](https://github.com/memflow/memflow-native) OS layer to read the memory of the game process. If you
